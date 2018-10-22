@@ -7,7 +7,7 @@ int main()
 	int i,k,j;
 	for(i=2;i<MaxSize;i++)
 	{
-		a[i]=true;            //´òÉÏËØÊıµÄ±ê¼Ç
+		a[i]=true;            //åˆå§‹åŒ–
 	}
 	a[0]=a[1]=false;
 	i=2;
@@ -29,6 +29,5 @@ int main()
 		if(a[i])cout<<i<<" ";
 	}
 	cout<<endl;
-	cin>>i;
 	return 0;
 }
